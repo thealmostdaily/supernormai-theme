@@ -1,0 +1,31 @@
+---
+title: Gary Peters
+timezone: Pacific/Auckland
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: hello@garypeters.info
+description: Gary Peters makes painting-objects, monochromes, site responsive installations, and non-objective wall works.
+baseurl:
+url:
+# twitter_username: jekyllrb
+# github_username: jekyll
+markdown: kramdown
+
+# theme: minima
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+
+collections:
+  - _works
+  - _exhibtions
+
+collections:
+ works:
+   output: true
