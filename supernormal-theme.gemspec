@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["thealmostdaily"]
   spec.email         = [""]
 
-  spec.summary       = "A theme for Jekyll based on the idea of being Supernormal."
+  spec.summary       = "A theme aspiring to be invisible in a supernormal kind of way."
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
