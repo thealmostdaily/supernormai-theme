@@ -1,1 +1,21 @@
-{{ content }}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="helvetica bg-near-white">
+
+    {%- include navigation.html -%}
+
+        <main class="pl3 pb3 pl5-ns pb5-ns measure-wide" aria-label="Content">
+          <article>
+            {{ content }}
+          </article>
+        </main>
+
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
