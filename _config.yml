@@ -16,6 +16,7 @@ url:
 # github_username: jekyll
 markdown: kramdown
 
+# theme: jekyll-theme-primer
 # theme: minima
 
 plugins:
