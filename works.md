@@ -1,6 +1,7 @@
 ---
 title: Works
-layout: default
+layout: grid
 ---
+
 
 {{ content }}
