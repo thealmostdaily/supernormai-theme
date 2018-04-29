@@ -16,7 +16,7 @@ Build pages but don't worry about the liquid code for now. The aim is to style e
 
 - [ ] see notes for pages types and build the type I need eg.:
 
-- [ ] Build a page with a Work on it
+- [x] Build a page with a Work on it
 - [ ] A work archive / overview / list page (grid with lazy load, 8 - 12 items)
 - [ ] Build a single exhibition page
 - [ ] Build an exhibition archive / list / overview page
@@ -48,3 +48,8 @@ I can build the structure etc into the theme but need to stop and a MVP point so
     - write liquid so can order pages by adding order number to yaml?
 
 - exclude "home" from menu "if else?"
+
+
+## notes
+Default Layout is like a container for the other layouts.
+single-work slots into the the {{ content }} container. By not including content styles in the default layout (other than that in <main> ) all page specific styles are held in the page itself. This allows for greater flexibiliy of layouts all with the frame of the default page. 
