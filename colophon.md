@@ -1,6 +1,6 @@
 ---
 title: Colophon
-layout: default
+layout: page
 ---
 
 # Colophon

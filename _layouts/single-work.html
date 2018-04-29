@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!-- todo nicetohave. Use logic to decide if the hero image code is here or not. If hero image then code is present, else it's not -->
+
+<div class="mw7 mb4">
+  <img src="{{ page.hero }}">
+</div>
+
+
+<h1 class="near-black mw7">{{ page.title }}</h1>
+<p class="silver lh mb4 mt2 f5">{{ page.medium }}<br />{{ page.dimensions }}<br />{{ page.year }}</p>
+
+<article class="measure lh-copy black">
+
+  {{ content }}
+
+</article>
+
+
+<!--
+ Use definition lists for above with clip style
+
+ <dl class="mt2 f6 lh-copy">
+  <dt class="clip">Title</dt>
+  <dd class="ml0 black truncate w-100">Blonde</dd>
+  <dt class="clip">Artist</dt>
+  <dd class="ml0 gray truncate w-100">Frank Ocean</dd>
+</dl>
+
+-->
