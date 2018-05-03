@@ -1,8 +1,10 @@
 ---
 date: 2018-03-22 22:02:46 +1300
-title: Works
+work-date: 2012-03-22 00:00:00 +1300
+
+title: List of works
 layout: page
-permalink: /works/index.html
+# permalink: /works/index.html
 ---
 
 
