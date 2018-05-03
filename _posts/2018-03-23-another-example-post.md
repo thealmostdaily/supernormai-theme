@@ -3,7 +3,7 @@ title: Another post
 layout: post
 ---
 
-![]({{ "images/georg-baselitz-nest.jpg"| relative_url }})
+![]({{ "/works/20171123_Very-modern-2017_Gary-Peters_1200-square.jpg"| relative_url }})
 
 This is an example post, using the `post` layout.
 

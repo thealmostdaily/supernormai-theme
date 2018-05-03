@@ -1,14 +1,17 @@
 ---
 date: 2018-03-22 22:02:46 +1300
+work-date: 2015-03-22 00:00:00 +1300
+
 title: A work with a very long title – Induction monochrome gets feisty after vodka and beer
 layout: single-work
 # permalink: /works/very-modern
 
 medium: acrylic on wooden panel
 dimensions: 1080 × 1080 mm
-year: 2017
+year: 2015
 
-hero: Very-Modern-2017_Gary-Peters_1200-square.jpg
+hero: 20171123_Very-modern-2017_Gary-Peters_1200-square.jpg
+thumb: 20171123_Very-modern-2017_Gary-Peters_thumb.jpg
 ---
 
 It’s about the work, not the money.

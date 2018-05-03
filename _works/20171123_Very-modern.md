@@ -1,5 +1,6 @@
 ---
 date: 2018-03-22 22:02:46 +1300
+work-date: 2017-11-23 00:00:00 +1300
 title: Very Modern
 layout: single-work
 # permalink: /works/very-modern
@@ -8,7 +9,8 @@ medium: acrylic on wooden panel
 dimensions: 1080 × 1080 mm
 year: 2017
 
-hero: Very-Modern-2017_Gary-Peters_1200-square.jpg
+hero: 20171123_Very-modern-2017_Gary-Peters_1200-square.jpg
+thumb: 20171123_Very-modern-2017_Gary-Peters_thumb.jpg
 ---
 
 Lorem gibson Blue Nine bomb Mycotoxin courier matrix boat tube advert systemic plastic range-rover dermatrodes. Screen matrix j-pop AI icebreaker Dex system sense/net assault corporation faded nano-sign singularity singularity film Korsakov's.
