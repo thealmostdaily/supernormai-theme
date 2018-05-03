@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1 class="near-black mw7">{{ page.title }}</h1>
+
+<ul class="list pl0 lh-copy mw7">
+
+  {% assign mid = site.works | sort: 'work-date' %}
+  {% assign projects = mid | reverse %}
+  <!-- sorts work dates into reverse order so most recent appears first -->
+  {% for item in projects %}
+
+
+  <li class="dib mr2"><a href="{{ item.url }}" class="f4 f3-ns b db pb2 pr2 link dim blue">{{ item.title }}</a></li>
+  {% endfor %}
+
+</ul>
