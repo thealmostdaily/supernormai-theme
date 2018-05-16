@@ -4,15 +4,32 @@ layout: default
 
 <h1 class="near-black mw7">{{ page.title }}</h1>
 
-<ul class="list pl0 lh-copy mw7">
+<article class="measure-wide lh-copy">
+      {{ content }}
+</article>
+
+
+<!-- <ul class="list pl0 lh-copy mw7">
 
   {% assign mid = site.works | sort: 'work-date' %}
-  {% assign projects = mid | reverse %}
-  <!-- sorts work dates into reverse order so most recent appears first -->
-  {% for item in projects %}
+  {% assign projects = mid | reverse %} -->
 
+  <!-- sorts work dates into reverse order so most recent appears first -->
+
+  <!-- {% for item in projects %}
 
   <li class="dib mr2"><a href="{{ item.url }}" class="f4 f3-ns b db pb2 pr2 link dim blue">{{ item.title }}</a></li>
   {% endfor %}
 
+</ul> -->
+
+
+
+<ul class="list pl0 lh-copy mw7">
+
+{%- if site.posts.size > 0 -%}
+  {%- for post in site.posts -%}
+  <li class="dib mr1 mr3-ns"><a href="{{ post.url | relative_url }}" class="f4 f3-ns db pb2 pr2 link dim blue">{{ post.title | escape }}</a></li>
+  {% endfor %}
+{%- endif -%}
 </ul>
