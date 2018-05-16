@@ -8,6 +8,7 @@ collections:
     output: true
 
 
+
 email: hello@garypeters.info
 
 description: Gary Peters makes painting-objects, monochromes, site responsive installations, and non-objective wall works.
@@ -24,9 +25,30 @@ markdown: kramdown
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
+# - jekyll-paginate-v2
+
 
 collections:
   works:
     output: true
-uploads:
+  uploads:
   output: true
+
+
+
+# Produces a cleaner folder structure when using categories
+# permalink: /:year/:month/:title.html
+
+# Explicitly turn off the old code
+##paginate: nil
+##paginate_path: nil
+
+# Pagination Settings
+# pagination:
+#   enabled: true
+#   per_page: 2
+#   permalink: '/posts/:num/'
+#   title: ':title - posts :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
