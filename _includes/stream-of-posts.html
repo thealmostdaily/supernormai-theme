@@ -1,0 +1,18 @@
+
+
+
+
+{%- if site.posts.size > 0 -%}
+
+{%- for post in site.posts limit:5 -%}
+<h1 class="near-black mb0"><a href="{{ post.url | relative_url }}" class="link dim blue">{{ post.title | escape }}</a></h1>
+<p class="subhead gray f6"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+
+
+<article  class="measure-wide lh-copy pb4 mb5 bb b--black-20">
+    {{ post.content }}
+</article>
+
+{%- endfor -%}
+
+{%- endif -%}
