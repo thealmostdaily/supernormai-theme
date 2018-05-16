@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: page
+# pagination:
+#  enabled: true
 ---
 # Welcome
 
