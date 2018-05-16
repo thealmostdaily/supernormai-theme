@@ -2,14 +2,27 @@
 layout: default
 ---
 
+
+<h1 class="near-black mb0"><a href="{{ post.url | relative_url }}" class="link dim blue">{{ page.title | escape }}</a></h1>
+<p class="subhead gray f6"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+
+
 <article  class="measure-wide lh-copy">
-
-    <header>
-
-        <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
-
-    </header>
-
     {{ content }}
-
 </article>
+
+
+
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
