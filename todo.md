@@ -18,11 +18,12 @@ Build pages but don't worry about the liquid code for now. The aim is to style e
 
 - [x] Build a page with a Work on it
 - [ ] A work archive / overview / list page (grid with lazy load, 8 - 12 items)
-- [ ] Build a single exhibition page
+- [x] Build a single exhibition page
 - [ ] Build an exhibition archive / list / overview page
-- [ ] A journal single post page
+- [x] A journal single post page
 - [ ] A journal archive page
-- [ ] Build an about page
+- [x] Build an about page
+
 
 and style accordingly.
 
@@ -52,4 +53,10 @@ I can build the structure etc into the theme but need to stop and a MVP point so
 
 ## notes
 Default Layout is like a container for the other layouts.
-single-work slots into the the {{ content }} container. By not including content styles in the default layout (other than that in <main> ) all page specific styles are held in the page itself. This allows for greater flexibiliy of layouts all with the frame of the default page. 
+single-work slots into the the {{ content }} container. By not including content styles in the default layout (other than that in <main> ) all page specific styles are held in the page itself. This allows for greater flexibiliy of layouts all with the frame of the default page.
+
+## Pagination for the journal.
+
+A nice to have at the monemnt. Quick and dirty solution is list of post titles and / or "stream of posts" with lazy load. I'd like next / previous links with popsts if possible at the bottom of the journal pages but for now I think it may be worth just having a list. KISS.
+
+** Try installing new minima theme site to see how that works. **
